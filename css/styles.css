@@ -1,0 +1,38 @@
+/* INDICE */
+
+/* 1.- General */
+/* 2.- Inicio */
+/* 3.- Proyectos */
+/* 4.- Sobre mí */
+/* 5.- Contacto */
+
+/* 1.- General */
+body {
+    background-color: #A5BDD0;
+}
+/* Header */
+.header {
+    background-color: #01101C;
+}
+/* Maquetación */
+.menu {
+    padding: 1rem 2rem;
+}
+.menu a img {
+    width: 150px;
+}
+.paginas {
+    margin: 0;
+    width: 50vw;
+    text-align: right;
+}
+.redes-menu {
+    margin: 0;
+    width: calc(50vw - 150px - 4rem);
+    text-align: right;
+}
+
+/* Footer */
+.footer {
+    background-color: #01101C;
+}

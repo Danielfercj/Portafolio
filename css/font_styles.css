@@ -1,0 +1,29 @@
+/* INDICE */
+
+/* 1.- General */
+/* 2.- Inicio */
+/* 3.- Proyectos */
+/* 4.- Sobre mí */
+/* 5.- Contacto */
+
+/* 1.- General */
+body {
+    color: #01101C;
+}
+/* Header */
+/* Falta la fuente */
+.header {
+    
+    color: #A5BDD0;
+}
+.menu div a {
+    color: #A5BDD0;
+    text-decoration: none;
+}
+
+
+/* Footer */
+.footer {
+    
+    color: #A5BDD0;
+}
