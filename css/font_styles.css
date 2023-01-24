@@ -7,9 +7,26 @@
 /* 5.- Contacto */
 
 /* 1.- General */
-body {
-    color: #01101C;
+/* Fuentes */
+@font-face {
+    font-family: "Oswald";
+    src: url('assets/fonts/Oswald-Bold.ttf');
 }
+@font-face {
+    font-family: "Lora Medium";
+    src: url('assets/fonts/Lora-Medium.ttf');
+}
+@font-face {
+    font-family: "Work Sans Medium";
+    src: url('assets/fonts/WorkSans-Medium.ttf');
+}
+
+body {
+    font-size: 18px;
+    color: #01101C;
+    font-family: "Work Sans Medium";
+}
+
 /* Header */
 /* Falta la fuente */
 .header {
@@ -19,6 +36,9 @@ body {
 .menu div a {
     color: #A5BDD0;
     text-decoration: none;
+    font-family: "Oswald";
+    font-size: 18px;
+    font-weight: bold;
 }
 
 

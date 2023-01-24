@@ -17,20 +17,34 @@ body {
 /* Maquetación */
 .menu {
     padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-.menu a img {
+
+
+.logo {
+    margin: 0;
     width: 150px;
 }
 .paginas {
     margin: 0;
-    width: 50vw;
+    width: calc(100vw - 150px - 150px - 4px);
     text-align: right;
+}
+.paginas a {
+    margin-left: 1em;
 }
 .redes-menu {
     margin: 0;
-    width: calc(50vw - 150px - 4rem);
+    width: 150px;
     text-align: right;
 }
+.redes-menu a i {
+    padding: 0 0.5em;
+    color: #A5BDD0;
+}
+
 
 /* Footer */
 .footer {
