@@ -9,16 +9,16 @@
 /* 1.- General */
 /* Fuentes */
 @font-face {
-    font-family: "Oswald";
-    src: url('assets/fonts/Oswald-Bold.ttf');
+    font-family: "Oswald Medium";
+    src: url('/assets/fonts/Oswald-Medium.ttf');
 }
 @font-face {
     font-family: "Lora Medium";
-    src: url('assets/fonts/Lora-Medium.ttf');
+    src: url('/assets/fonts/Lora-Medium.ttf');
 }
 @font-face {
     font-family: "Work Sans Medium";
-    src: url('assets/fonts/WorkSans-Medium.ttf');
+    src: url('/assets/fonts/WorkSans-Medium.ttf');
 }
 
 body {
@@ -36,9 +36,11 @@ body {
 .menu div a {
     color: #A5BDD0;
     text-decoration: none;
-    font-family: "Oswald";
-    font-size: 18px;
-    font-weight: bold;
+    font-family: "Oswald Medium";
+}
+/* Main */
+.texto-resaltado {
+    color: #B96A00;
 }
 
 
@@ -47,3 +49,15 @@ body {
     
     color: #A5BDD0;
 }
+
+/* 2.- Inicio */
+/* Presentación */
+.presentacion h2 {
+    font-size: 20px;
+    font-family: "Lora Medium";
+}
+.presentacion h1 {
+    font-size: 36px;
+    font-family: "Lora Medium";
+}
+

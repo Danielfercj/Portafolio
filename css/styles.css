@@ -57,3 +57,8 @@ body {
     width: 100%;
     height: auto;
 }
+/* Presentación */
+.presentacion {
+    margin: 25vh 25vw;
+    padding: 2rem;
+}
