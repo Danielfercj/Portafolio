@@ -59,6 +59,26 @@ body {
 }
 /* Presentación */
 .presentacion {
-    margin: 25vh 25vw;
+    margin: 20vh 20vw;
     padding: 2rem;
+}
+.presentacion h2, .presentacion h1 {
+    margin: 0;
+}
+.subrayado {
+    margin: 1em 0 0;
+    width: 25%;
+    height: 0.25em;
+    background-color: #B96A00;
+}
+.presentacion-texto {
+    margin: 4em 0 2em;
+}
+.contenedor-boton{
+    margin: 0;
+}
+.boton {
+    margin: 0;
+    padding: 0.25em 1em;
+    border: 2px solid #01101C;
 }

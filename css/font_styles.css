@@ -30,7 +30,6 @@ body {
 /* Header */
 /* Falta la fuente */
 .header {
-    
     color: #A5BDD0;
 }
 .menu div a {
@@ -57,5 +56,10 @@ body {
 .presentacion h1 {
     font-size: 36px;
     font-family: "Lora Medium";
+}
+.boton {
+    text-decoration: none;
+    color: #01101C;
+    font-family: "Work Sans Medium";
 }
 
