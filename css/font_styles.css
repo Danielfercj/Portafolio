@@ -64,6 +64,8 @@ body {
 }
 /* Enlaces a las otras páginas */
 .circulo h3 {
+    font-size: 20px;
     color: #A5BDD0;
+    font-family: "Oswald Medium";
 } 
 
