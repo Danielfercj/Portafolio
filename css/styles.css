@@ -82,3 +82,53 @@ body {
     padding: 0.25em 1em;
     border: 2px solid #01101C;
 }
+/* Enlaces a las otras páginas */
+.degradado-enlaces-paginas {
+    height: 4em;
+    background: linear-gradient(180deg, #5A7B94, #A5BDD0);
+}
+.enlaces-paginas {
+    margin: calc(20vh - 4em) 20vw 20vh;
+    padding: 2rem;
+}
+/* Maquetado */
+.circulos-arriba {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.circulo-abajo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Formas y colores */
+.circulo {
+    width: 10em;
+    height: 10em;
+    background-color: #01101C;
+    border-radius: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.primer-circulo .circulo {
+    margin-right: 2em;
+}
+.segundo-circulo .circulo {
+    margin-left: 2em;
+}
+.tercer-circulo .circulo {
+    margin-top: 3em;
+}
+.circulo h3 {
+    margin: 0;
+}
+.triangulo {
+    width: 0; 
+    height: 0; 
+    border-left: 1.44em solid transparent;
+    border-right: 1.44em solid transparent;     
+    border-bottom: 2.5em solid #01101C;
+}
