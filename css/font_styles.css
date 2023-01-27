@@ -23,17 +23,17 @@
 
 body {
     font-size: 18px;
-    color: #01101C;
+    color: #00060B;
     font-family: "Work Sans Medium";
 }
 
 /* Header */
 /* Falta la fuente */
 .header {
-    color: #E7EEF4;
+    color: #F5F9FD;
 }
 .menu div a {
-    color: #E7EEF4;
+    color: #F5F9FD;
     text-decoration: none;
     font-family: "Oswald Medium";
 }
@@ -43,8 +43,7 @@ body {
 
 /* Footer */
 .footer {
-    
-    color: #E7EEF4;
+    color: #F5F9FD;
 }
 
 /* 2.- Inicio */
@@ -59,13 +58,13 @@ body {
 }
 .boton {
     text-decoration: none;
-    color: #01101C;
+    color: #00060B;
     font-family: "Work Sans Medium";
 }
 /* Enlaces a las otras páginas */
 .circulo h3 {
     font-size: 20px;
-    color: #E7EEF4;
+    color: #F5F9FD;
     font-family: "Oswald Medium";
 } 
 .primer-circulo, .segundo-circulo, .tercer-circulo {

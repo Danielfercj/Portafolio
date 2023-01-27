@@ -8,11 +8,11 @@
 
 /* 1.- General */
 body {
-    background-color: #E7EEF4;
+    background-color: #F5F9FD;
 }
 /* Header */
 .header {
-    background-color: #01101C;
+    background-color: #00060B;
 }
 /* Maquetación */
 .menu {
@@ -21,8 +21,6 @@ body {
     flex-direction: row;
     align-items: center;
 }
-
-
 .logo {
     margin: 0;
     width: 150px;
@@ -41,14 +39,42 @@ body {
     text-align: right;
 }
 .redes-menu a i {
-    padding: 0 0.5em;
-    color: #E7EEF4;
+    margin: 0 0.5em;
+    color: #F5F9FD;
+}
+
+/* Botón de regreso al inicio */
+.enlace-regreso-menu {
+    position:fixed;
+	width:36px;
+	height:36px;
+	bottom:45px;
+	right:45px;
+    background-color:#B96A00;
+	color:#F5F9FD;
+	border-radius:18px;
+	text-align:center;
+}
+.enlace-regreso-menu i {
+    font-size: 32px;
+    margin-top:2px;
 }
 
 /* Footer */
 .footer {
-    background-color: #01101C;
+    background-color: #00060B;
     padding: 1rem 2rem;
+    text-align: center;
+}
+.redes-footer {
+    text-align: center;
+}
+.redes-footer a {
+    text-decoration: none;
+}
+.redes-footer i {
+    margin: 0 0.5em;
+    color: #F5F9FD;
 }
 
 /* 2.- Inicio */
@@ -80,12 +106,12 @@ body {
 .boton {
     margin: 0;
     padding: 0.25em 1em;
-    border: 2px solid #01101C;
+    border: 2px solid #00060B;
 }
 /* Enlaces a las otras páginas */
 .degradado-enlaces-paginas {
     height: 4em;
-    background: linear-gradient(180deg, #A5BDD0, #E7EEF4);
+    background: linear-gradient(180deg, #E7EEF4, #F5F9FD);
 }
 .enlaces-paginas {
     margin: calc(20vh - 4em) 20vw 20vh;
@@ -103,10 +129,10 @@ body {
     align-items: center;
 }
 /* Formas y colores */
-.circulo {
+.primer-circulo .circulo, .segundo-circulo .circulo {
     width: 10em;
     height: 10em;
-    background-color: #01101C;
+    background-color: #00060B;
     border-radius: 5em;
     display: flex;
     flex-direction: column;
@@ -121,19 +147,26 @@ body {
 }
 .tercer-circulo .circulo {
     margin-top: 3em;
+    width: 15em;
+    height: 7.5em;
+    background-color: #00060B;
+    border-radius: 0 0 7.5em 7.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .circulo h3 {
-    margin: 0;
+    margin: 0 0 0.5em;
 }
 .triangulo {
     width: 0; 
     height: 0; 
     border-left: 1.44em solid transparent;
     border-right: 1.44em solid transparent;     
-    border-bottom: 2.5em solid #01101C;
+    border-bottom: 2.5em solid #00060B;
 }
 .circulo i {
-    color: #E7EEF4;
-    width: 20px;
-    height: 20px;
+    color: #F5F9FD;
+    font-size: 20px;
 }
