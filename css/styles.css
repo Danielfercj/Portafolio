@@ -8,7 +8,7 @@
 
 /* 1.- General */
 body {
-    background-color: #A5BDD0;
+    background-color: #E7EEF4;
 }
 /* Header */
 .header {
@@ -42,7 +42,7 @@ body {
 }
 .redes-menu a i {
     padding: 0 0.5em;
-    color: #A5BDD0;
+    color: #E7EEF4;
 }
 
 /* Footer */
@@ -85,7 +85,7 @@ body {
 /* Enlaces a las otras páginas */
 .degradado-enlaces-paginas {
     height: 4em;
-    background: linear-gradient(180deg, #5A7B94, #A5BDD0);
+    background: linear-gradient(180deg, #A5BDD0, #E7EEF4);
 }
 .enlaces-paginas {
     margin: calc(20vh - 4em) 20vw 20vh;
@@ -131,4 +131,9 @@ body {
     border-left: 1.44em solid transparent;
     border-right: 1.44em solid transparent;     
     border-bottom: 2.5em solid #01101C;
+}
+.circulo i {
+    color: #E7EEF4;
+    width: 20px;
+    height: 20px;
 }

@@ -30,10 +30,10 @@ body {
 /* Header */
 /* Falta la fuente */
 .header {
-    color: #A5BDD0;
+    color: #E7EEF4;
 }
 .menu div a {
-    color: #A5BDD0;
+    color: #E7EEF4;
     text-decoration: none;
     font-family: "Oswald Medium";
 }
@@ -44,7 +44,7 @@ body {
 /* Footer */
 .footer {
     
-    color: #A5BDD0;
+    color: #E7EEF4;
 }
 
 /* 2.- Inicio */
@@ -65,7 +65,10 @@ body {
 /* Enlaces a las otras páginas */
 .circulo h3 {
     font-size: 20px;
-    color: #A5BDD0;
+    color: #E7EEF4;
     font-family: "Oswald Medium";
 } 
+.primer-circulo, .segundo-circulo, .tercer-circulo {
+    text-decoration: none;
+}
 
