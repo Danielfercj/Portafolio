@@ -194,6 +194,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.titulo-pagina .triangulo {
+    margin-left: 12em;
+}
 
 /* Texto de introducción */
 .texto-introduccion {
