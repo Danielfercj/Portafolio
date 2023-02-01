@@ -70,4 +70,13 @@ body {
 .primer-circulo, .segundo-circulo, .tercer-circulo {
     text-decoration: none;
 }
+/* 3.- Proyectos */
+.texto-introduccion h1 {
+    font-size: 36px;
+    font-family: "Lora Medium";
+    color: #F5F9FD;
+}
+.mi-rol-proyectos {
+    color: #F5F9FD;
+}
 
