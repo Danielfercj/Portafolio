@@ -197,6 +197,10 @@ body {
 .titulo-pagina .triangulo {
     margin-left: calc(33.33vw/2 + 4.5em);
 }
+/* Container */
+.container-texto-introduccion {
+    width: 66.67vw;
+}
 /* Degradado */
 .degradado-texto-introduccion {
     height: 4em;
@@ -205,7 +209,6 @@ body {
 
 /* Texto de introducción */
 .texto-introduccion {
-    width: 66.67vw;
     padding: 2em;
     background-color: #00060B;
 }
@@ -215,3 +218,4 @@ body {
 .mi-rol-proyectos {
     margin: 2em 0 0;
 }
+/* Aumenteremos más margin */
