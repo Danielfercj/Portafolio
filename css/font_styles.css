@@ -71,12 +71,16 @@ body {
     text-decoration: none;
 }
 /* 3.- Proyectos */
+/* Introducción de la página  */
 .texto-introduccion h1 {
     font-size: 36px;
     font-family: "Lora Medium";
     color: #F5F9FD;
 }
-.mi-rol-proyectos {
+.los-proyectos-texto {
     color: #F5F9FD;
 }
-
+/* Lista de proyectos */
+.lista-proyectos article {
+    color: #F5F9FD;
+}

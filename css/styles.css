@@ -181,7 +181,7 @@ body {
 /* Título de la página */
 .titulo-pagina {
     width: 33.33vw;
-    padding: 2em;
+    padding: 6em 2em;
 }
 .titulo-pagina .circulo {
     margin-left: calc(33.33vw/2 - 7.5em);
@@ -200,22 +200,54 @@ body {
 /* Container */
 .container-texto-introduccion {
     width: 66.67vw;
+    background-color: #00060B;
 }
 /* Degradado */
 .degradado-texto-introduccion {
     height: 4em;
     background: linear-gradient(180deg, #01101C, #00060B);
 }
-
 /* Texto de introducción */
 .texto-introduccion {
-    padding: 2em;
-    background-color: #00060B;
+    padding: 2em 4em 6em;
 }
 .texto-introduccion h1 {
     margin: 0;
 }
-.mi-rol-proyectos {
+.los-proyectos-texto {
     margin: 2em 0 0;
 }
-/* Aumenteremos más margin */
+
+/* Lista de proyectos */
+.degradado-lista-proyectos {
+    height: 4em;
+    background: linear-gradient(180deg, #E7EEF4, #F5F9FD);
+}
+.lista-proyectos {
+    padding: 2em 4em 6em;
+}
+/* Maquetado */
+.lista-proyectos article {
+    padding: 4em;
+    background-color: #00060B;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.nombre-proyecto {
+    width: 10em;
+}
+.espacio-del-proyecto {
+    width: 10em;
+    height: 0.1em;
+    margin: 0 4em;
+    background-color: #F5F9FD;
+}
+
+
+.espacio-entre-proyectos {
+    height: 0.25em;
+    background-color: #F5F9FD;
+}
+/* El ancho de .espacio-del-proyecto debe estar en porcentajes y lo demas con ancho fijo */
