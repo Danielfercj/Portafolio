@@ -3,6 +3,7 @@
 /* 1.- General */
 /* 2.- Inicio */
 /* 3.- Proyectos */
+/* 3.1.- Cada proyecto */
 /* 4.- Sobre mí */
 /* 5.- Contacto */
 
@@ -236,18 +237,44 @@ body {
     align-items: center;
 }
 .nombre-proyecto {
-    width: 10em;
+    width: 20em;
+}
+.subrayado-nombre-proyecto {
+    margin: 1em 0 0;
+    width: 60%;
+    height: 0.15em;
+    background-color: #B96A00;
 }
 .espacio-del-proyecto {
-    width: 10em;
+    width: calc(100vw - 16em - 35em);
     height: 0.1em;
     margin: 0 4em;
     background-color: #F5F9FD;
 }
-
-
+.detalles-proyecto {
+    width: 15em;
+}
 .espacio-entre-proyectos {
     height: 0.25em;
     background-color: #F5F9FD;
 }
-/* El ancho de .espacio-del-proyecto debe estar en porcentajes y lo demas con ancho fijo */
+
+/* 3.1.- Cada proyecto */
+/* Encabezado de página */
+.degradado-encabezado-proyecto {
+    height: 4em;
+    background: linear-gradient(180deg, #01101C, #00060B);
+}
+.encabezado-proyecto {
+    padding: 2em 10em 6em;
+    background-color: #00060B;
+}
+.subrayado-encabezado-proyecto {
+    margin: 1em 0;
+    width: 50%;
+    height: 0.25em;
+    background-color: #B96A00;
+}
+.encabezado-proyecto h1, .encabezado-proyecto p {
+    margin: 0;
+}

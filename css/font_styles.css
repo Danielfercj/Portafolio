@@ -3,6 +3,7 @@
 /* 1.- General */
 /* 2.- Inicio */
 /* 3.- Proyectos */
+/* 3.1.- Cada proyecto */
 /* 4.- Sobre mí */
 /* 5.- Contacto */
 
@@ -81,6 +82,23 @@ body {
     color: #F5F9FD;
 }
 /* Lista de proyectos */
+.lista-proyectos a {
+    text-decoration: none;
+}
 .lista-proyectos article {
+    color: #F5F9FD;
+}
+.nombre-proyecto h2 {
+    font-family: "Lora Medium";
+    font-size: 20px;
+}
+/* 3.1.- Cada proyecto */
+/* Encabezado de página */
+.encabezado-proyecto h1 {
+    font-size: 36px;
+    font-family: "Lora Medium";
+    color: #F5F9FD;
+}
+.encabezado-proyecto p {
     color: #F5F9FD;
 }
