@@ -278,3 +278,32 @@ body {
 .encabezado-proyecto h1, .encabezado-proyecto p {
     margin: 0;
 }
+
+/* Contenedor del contenido */
+.contenedor-contenido-proyecto {
+    display: flex;
+    flex-direction: row;
+}
+/* Contenido de proyecto */
+.contenido-proyecto {
+    width: 75vw;
+    padding: 6em 4em 6em 10em;
+}
+.subrayado-subtitulo2-proyecto {
+    margin-bottom: 2em;
+    height: 0.15em;
+    background-color: #00060B;
+}
+.contenido-proyecto img {
+    width: calc(75vw - 10em);
+}
+
+/* Datos del proyecto */
+.contenedor-datos-proyecto {
+    width: 25vw;
+    padding: 6em 0;
+}
+.datos-proyecto {
+    padding: 2em;
+}
+

@@ -102,3 +102,19 @@ body {
 .encabezado-proyecto p {
     color: #F5F9FD;
 }
+/* Contenedor del contenido */
+/* Contenido */
+.contenido-proyecto h2 {
+    font-family: "Lora Medium";
+    font-size: 20px;
+}
+
+
+
+/* Datos del proyecto */
+.datos-proyecto p {
+    font-weight: bold;
+}
+.datos-proyecto p span {
+    font-weight: normal;
+}
