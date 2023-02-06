@@ -305,5 +305,11 @@ body {
 }
 .datos-proyecto {
     padding: 2em;
+    position:fixed;
+    width: 15vw;
+	bottom:15vh;
+	right:0;
+    background-color:#00060B;
+	color:#F5F9FD;
 }
 

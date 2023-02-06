@@ -108,9 +108,14 @@ body {
     font-family: "Lora Medium";
     font-size: 20px;
 }
-
-
-
+.contenido-proyecto h3 {
+    font-family: "Lora Medium";
+    font-size: 18px;
+}
+.contenido-proyecto a {
+    text-decoration: none;
+    color: #00060B;
+}
 /* Datos del proyecto */
 .datos-proyecto p {
     font-weight: bold;
