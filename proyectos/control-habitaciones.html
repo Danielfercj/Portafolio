@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ESTILOS -->
+    <!--Style sheets-->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/font_styles.css">
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/915df25ef0.js" crossorigin="anonymous"></script>
+
+    <title>Control de habitaciones</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="menu" id="menu">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/logo/DanielCjunoLogo.png" alt="Mi super logo">
+                </a>
+            </div>
+            <div class="paginas">
+                <a href="../proyectos.html">PROYECTOS</a>
+                <a href="../sobre-mi.html">SOBRE MÍ</a>
+                <a href="../contacto.html">CONTACTO</a>
+            </div>
+            <div class="redes-menu">
+                <a href="mailto:daniel.cjuno@outlook.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/daniel-fernando-cjuno-lezama-866391108/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Danielfercj" target="_blank">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Encabezado de página -->
+        <div class="degradado-encabezado-proyecto"></div>
+        <div class="encabezado-proyecto">
+            <h1>CONTROL DE HABITACIONES</h1>
+            <div class="subrayado-encabezado-proyecto"></div>
+            <p>Automatización</p>
+        </div>
+        <!-- Contenedor del contenido -->
+        <div class="contenedor-contenido-proyecto">
+            <div class="contenido-proyecto">
+                <h2>Sobre el proyecto</h2>
+                <div class="subrayado-subtitulo2-proyecto"></div>
+                <p>La Parada es un Hotel en Cusco, que está en operación ya varios años. Ya que hay varios hoteles en Cusco se propuso hacer un software que gestionara los recursos, como el control de las habitaciones ocupadas, los que pagaron, los que faltan y cuanto así como otros detalles de cada una. La idea era mostrarlo visualmente para que sea fácil de interpretar los datos. Como no se disponía del equipo ni tiempo suficiente para desarrollar una aplicación asi, se optó por Automatizar usan otras herramientas.</p>
+                <p>Mis funciones: Diseño y desarrollo de la Automatización.</p>
+                <p>Por razones de que muchos negocios del sector turístico cerraron, no se puedo probar en un hotel en operaciones, solo se hizo pruebas de su funcionamiento.</p>
+                <br>
+                <h2>Herramientas utilizadas</h2>
+                <div class="subrayado-subtitulo2-proyecto"></div>
+                <h3>Google Forms</h3>
+                <p>La idea era que el recepcionista ingrese los datos a un formulario de forma fácil y no directamente a un Excel o un Google Sheets.</p>
+                <br>
+                <h3>Google Sheets</h3>
+                <p>Este era nuestra base de datos, estaba conectado con Google Forms, se compilaba y transformaba esos datos en una tabla base y distribuía a otras tabla.</p>
+                <br>
+                <h3>Make (Integromat)</h3>
+                <p>Make sirve para conectar diferentes herramientas y automatizar las tareas, es una herramienta No-code. Se usó para conectar Google Sheets con Google Calendar, para crear y modificar automáticamente los eventos. Cada evento indica que una o un grupo de personas ocupan una habitación.</p>
+                <br>
+                <h3>Google Calendar</h3>
+                <p>Es el más simple, pero es es perfecto para visualizar fácilmente que habitaciones están ocupadas cada día en forma de eventos, así como tener una nota de sus detalles en cada evento.</p>
+                <br>
+                <h3>Looker Studio</h3>
+                <p>Sirvió como un Dashboard para visualizar las tablas resumidas de Google Sheets, con la posibilidad de filtrar según lo que se necesite fácilmente, y que posteriormente se pueda añadir más gráficos que ayuden la compresión de los datos.</p>
+                <br>
+                <p>Luego todo se unió en un pdf, un diagrama que indicaba el flujo de trabajo, como un control de mandos, que contenía los links a las herramientas que necesitara.</p>
+                <br>
+                <h2>Enlaces</h2>
+                <div class="subrayado-subtitulo2-proyecto"></div>
+                <p>Como son varias herramientas conectadas entre sí y los links de los escenarios de Make no se puede compartir públicamente, lo más sencillo sería mostrarlo por una video llamada.</p>
+            </div>
+            <aside class="contenedor-datos-proyecto">
+                <div class="datos-proyecto">
+                    <p>Año: <span>2023</span></p>
+                    <p>Cliente: <span>La Parada</span></p>
+                    <p>Categoría: <span>Automatización</span></p>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <!-- Botón de regreso al inicio -->
+    <div class="regreso-menu">
+        <a class="enlace-regreso-menu" href="#menu">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+    </div>
+    
+    <footer class="footer">
+        <div class="redes-footer">
+            <a href="mailto:daniel.cjuno@outlook.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-fernando-cjuno-lezama-866391108/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Danielfercj" target="_blank">
+                <i class="fa-brands fa-square-github"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
