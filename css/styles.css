@@ -180,11 +180,11 @@ body {
     flex-direction: row;
 }
 /* Título de la página */
-.titulo-pagina {
+.titulo-pagina-proyectos {
     width: 33.33vw;
     padding: 6em 2em;
 }
-.titulo-pagina .circulo {
+.titulo-pagina-proyectos .circulo {
     margin-left: calc(33.33vw/2 - 7.5em);
     width: 10em;
     height: 10em;
@@ -195,7 +195,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.titulo-pagina .triangulo {
+.titulo-pagina-proyectos .triangulo {
     margin-left: calc(33.33vw/2 + 4.5em);
 }
 /* Container */
@@ -313,3 +313,23 @@ body {
 	color:#F5F9FD;
 }
 
+/* 4.- Sobre mí */
+/* Título de la página */
+.titulo-pagina-sobre-mi {
+    width: 33.33vw;
+    padding: 6em 2em;
+}
+.titulo-pagina-sobre-mi .circulo {
+    margin-left: calc(33.33vw/2 - 2.5em);
+    width: 10em;
+    height: 10em;
+    background-color: #00060B;
+    border-radius: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-pagina-sobre-mi .triangulo {
+    margin-left: calc(33.33vw/2 - 7.5em);
+}
