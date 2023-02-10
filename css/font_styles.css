@@ -128,3 +128,13 @@ body {
 .sobre-mi-texto {
     color: #F5F9FD;
 }
+.manejo-programas h2 {
+    font-family: "Lora Medium";
+    font-size: 20px;
+    text-align: center;
+}
+.detalles-programa h3 {
+    font-family: "Lora Medium";
+    font-size: 18px;
+}
+
