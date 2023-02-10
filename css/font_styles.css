@@ -123,3 +123,8 @@ body {
 .datos-proyecto p span {
     font-weight: normal;
 }
+
+/* 4.- Sobre mí */
+.los-proyectos-texto {
+    color: #F5F9FD;
+}

@@ -333,3 +333,12 @@ body {
 .titulo-pagina-sobre-mi .triangulo {
     margin-left: calc(33.33vw/2 - 7.5em);
 }
+.sobre-mi-texto {
+    margin: 2em 0 0;
+}
+/* Manejo de programas */
+.degradado-manejo-programas {
+    height: 4em;
+    background: linear-gradient(180deg, #E7EEF4, #F5F9FD);
+}
+
