@@ -357,9 +357,13 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-.icono-programa i {
-    font-size: 72px;
+.icono-programa {
+    display: flex;
+    justify-content: center;
     margin-right: 18px;
+}
+.icono-programa img {
+    width: 72px;
 }
 .detalles-programa {
     margin-left: 18px;
