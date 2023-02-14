@@ -400,3 +400,70 @@ body {
     height: 0.25em;
     background-color: #00060B;
 }
+
+/* 5.- Contacto */
+/* Título de la página */
+.titulo-pagina-contacto {
+    width: 33.33vw;
+    padding: 6em 2em;
+}
+.titulo-pagina-contacto .triangulo {
+    margin-left: calc(33.33vw/2 - 1.44em);
+}
+.titulo-pagina-contacto .circulo {
+    margin-top: 3em;
+    margin-left: calc(33.33vw/2 - 7.5em);
+    width: 15em;
+    height: 7.5em;
+    background-color: #00060B;
+    border-radius: 0 0 7.5em 7.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto-texto {
+    margin: 2em 0 0;
+}
+/* Enlaces de contacto */
+.degradado-enlaces-contacto {
+    height: 4em;
+    background: linear-gradient(180deg, #E7EEF4, #F5F9FD);
+}
+.enlaces-contacto {
+    padding: 2em 4em 6em;
+}
+.fila-enlaces-contacto {
+    display: flex;
+    flex-direction: row;
+}
+.fila-enlaces-contacto article {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icono-contacto {
+    display: flex;
+    justify-content: center;
+    margin-right: 18px;
+}
+.icono-contacto a {
+    text-decoration: none;
+    font-size: 72px;
+    color: #00060B;
+}
+.detalles-contacto {
+    margin-left: 18px;
+}
+.detalles-contacto h2, .link-contacto {
+    margin: 0;
+}
+.contenedor-boton-contacto {
+    margin: 18px 0 0;
+}
+.espacio-entre-fila-enlaces-contacto {
+    margin: 2em 0;
+    height: 0.25em;
+    background-color: #00060B;
+}

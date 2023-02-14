@@ -138,3 +138,11 @@ body {
     font-size: 18px;
 }
 
+/* 5.- Contacto */
+.contacto-texto {
+    color: #F5F9FD;
+}
+.detalles-contacto h2 {
+    font-family: "Lora Medium";
+    font-size: 18px;
+}
