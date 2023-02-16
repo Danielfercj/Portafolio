@@ -183,9 +183,12 @@ body {
 .titulo-pagina-proyectos {
     width: 33.33vw;
     padding: 6em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .titulo-pagina-proyectos .circulo {
-    margin-left: calc(33.33vw/2 - 7.5em);
+    margin-right: calc(50% + 0.28em);
     width: 10em;
     height: 10em;
     background-color: #00060B;
@@ -196,7 +199,7 @@ body {
     align-items: center;
 }
 .titulo-pagina-proyectos .triangulo {
-    margin-left: calc(33.33vw/2 + 4.5em);
+    margin-left: calc(50% + 0.28em);
 }
 /* Container */
 .container-texto-introduccion {
@@ -318,9 +321,12 @@ body {
 .titulo-pagina-sobre-mi {
     width: 33.33vw;
     padding: 6em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .titulo-pagina-sobre-mi .circulo {
-    margin-left: calc(33.33vw/2 - 2.5em);
+    margin-left: calc(50% + 0.28em);
     width: 10em;
     height: 10em;
     background-color: #00060B;
@@ -331,7 +337,7 @@ body {
     align-items: center;
 }
 .titulo-pagina-sobre-mi .triangulo {
-    margin-left: calc(33.33vw/2 - 7.5em);
+    margin-right: calc(50% + 0.28em);
 }
 .sobre-mi-texto {
     margin: 2em 0 0;
@@ -406,13 +412,12 @@ body {
 .titulo-pagina-contacto {
     width: 33.33vw;
     padding: 6em 2em;
-}
-.titulo-pagina-contacto .triangulo {
-    margin-left: calc(33.33vw/2 - 1.44em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .titulo-pagina-contacto .circulo {
     margin-top: 3em;
-    margin-left: calc(33.33vw/2 - 7.5em);
     width: 15em;
     height: 7.5em;
     background-color: #00060B;
@@ -467,3 +472,23 @@ body {
     height: 0.25em;
     background-color: #00060B;
 }
+
+/* Responsive para tablet ([768 , 1024> px de ancho) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* 1.- General */
+    /* Maquetación */
+    .redes-menu {
+        display:none;
+    }
+    .paginas {
+        width: calc(100vw - 150px - 4px);
+    }
+
+}
+
+/* Responsive para celular normal ([480 , 768> px de ancho) */
+
+
+
+
+/* Responsive para pantalla minima ([0 , 480> px de ancho) */
