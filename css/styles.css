@@ -28,7 +28,7 @@ body {
 }
 .paginas {
     margin: 0;
-    width: calc(100vw - 150px - 150px - 4px);
+    width: calc(100vw - 150px - 150px - 4rem);
     text-align: right;
 }
 .paginas a {
@@ -86,8 +86,8 @@ body {
 }
 /* Presentación */
 .presentacion {
-    margin: 20vh 20vw;
-    padding: 2rem;
+    margin: 6em 20vw;
+    padding: 0;
 }
 .presentacion h2, .presentacion h1 {
     margin: 0;
@@ -474,21 +474,61 @@ body {
 }
 
 /* Responsive para tablet ([768 , 1024> px de ancho) */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     /* 1.- General */
+    /* Header */
     /* Maquetación */
     .redes-menu {
         display:none;
     }
     .paginas {
-        width: calc(100vw - 150px - 4px);
+        width: calc(100vw - 150px - 4rem);
     }
+
+    /* 2.- Inicio */
+    /* Presentación */
+    .presentacion {
+        margin: 6em 10vw;
+    }
+    /* Enlaces a las otras páginas */
+    .enlaces-paginas {
+        margin: 2em 10vw 6em;
+    }
+
+    /* 3.- Proyectos */
+
 
 }
 
 /* Responsive para celular normal ([480 , 768> px de ancho) */
+@media (min-width: 480px) and (max-width: 767px) {
+    /* 1.- General */
+    /* Header */
+    /* Maquetación */
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .redes-menu {
+        display:none;
+    }
+    .paginas {
+        margin-top: 1em;
+        width: calc(100vw - 4rem);
+        text-align: center;
+    }
+    .paginas a {
+        margin: 0 0.5em;
+    }
 
+    /* 2.- Inicio */
+    /* Presentación */
+    .presentacion {
+        margin: 6em 0;
+        padding: 0 2rem;
+    }
 
-
+}
 
 /* Responsive para pantalla minima ([0 , 480> px de ancho) */
