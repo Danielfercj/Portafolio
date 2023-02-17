@@ -496,7 +496,50 @@ body {
     }
 
     /* 3.- Proyectos */
+    /* Introducción de la página */
 
+    /* Título de la página */
+    .titulo-pagina-proyectos {
+        display: none;
+    }
+    /* Container */
+    .container-texto-introduccion {
+        width: 100vw;
+    }
+    /* Lista de proyectos */
+    .degradado-lista-proyectos {
+        display: none;
+    }
+    .lista-proyectos {
+        padding: 6em 4em 6em;
+    }
+    /* Maquetado */
+    .lista-proyectos article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nombre-proyecto {
+        width: 75%;
+        text-align: center;
+    }
+    .subrayado-nombre-proyecto {
+        display: none;
+    }
+    .espacio-del-proyecto {
+        width: 50%;
+        height: 0.1em;
+        margin: 0;
+        background-color: #F5F9FD;
+    }
+    .detalles-proyecto {
+        width: 75%;
+        text-align: center;
+    }
+    /* 3.1.- Cada proyecto */
+    /* Encabezado de página */
+    
 
 }
 
@@ -572,6 +615,57 @@ body {
         align-items: center;
     }
     .triangulo {
+        display: none;
+    }
+
+    /* 3.- Proyectos */
+    /* Introducción de la página */
+
+    /* Título de la página */
+    .titulo-pagina-proyectos {
+        display: none;
+    }
+    /* Container */
+    .container-texto-introduccion {
+        width: 100vw;
+    }
+    /* Texto de introducción */
+    .texto-introduccion {
+        padding: 2em 2em 6em;
+    }
+    /* Lista de proyectos */
+    .degradado-lista-proyectos {
+        display: none;
+    }
+    .lista-proyectos {
+        padding: 6em 2em 6em;
+    }
+    /* Maquetado */
+    .lista-proyectos article {
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nombre-proyecto {
+        width: 100%;
+        text-align: center;
+    }
+    .subrayado-nombre-proyecto {
+        display: none;
+    }
+    .espacio-del-proyecto {
+        width: 50%;
+        height: 0.1em;
+        margin: 0;
+        background-color: #F5F9FD;
+    }
+    .detalles-proyecto {
+        width: 100%;
+        text-align: center;
+    }
+    .nombre-proyecto p, .detalles-proyecto p:nth-child(2), .detalles-proyecto p:nth-child(3) {
         display: none;
     }
 
