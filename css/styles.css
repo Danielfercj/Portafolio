@@ -308,7 +308,7 @@ body {
 }
 .datos-proyecto {
     padding: 2em;
-    position: sticky;
+    position: fixed;
     width: 15vw;
 	bottom:15vh;
 	right:0;
@@ -484,6 +484,11 @@ body {
     .paginas {
         width: calc(100vw - 150px - 4rem);
     }
+    /* Botón de regreso al inicio */
+    .enlace-regreso-menu {
+        bottom:60px;
+        right:30px;
+    }
 
     /* 2.- Inicio */
     /* Presentación */
@@ -541,7 +546,6 @@ body {
     /* Encabezado de página */
     .encabezado-proyecto {
         padding: 2em 4em 6em;
-        background-color: #00060B;
     }
     .subrayado-encabezado-proyecto {
         width: 75%;
@@ -578,7 +582,8 @@ body {
     .contenido-proyecto img {
         width: calc(100vw - 9em);
     }
-    
+    /* 4.- Sobre mí */
+    /* Título de la página */
 
 }
 
@@ -602,6 +607,18 @@ body {
     }
     .paginas a {
         margin: 0 0.5em;
+    }
+    /* Botón de regreso al inicio */
+    .enlace-regreso-menu {
+        width:28px;
+	    height:28px;
+        bottom:75px;
+        right:5px;
+        border-radius:14px;
+    }
+    .enlace-regreso-menu i {
+        font-size: 24px;
+        margin-top:2px;
     }
 
     /* 2.- Inicio */
@@ -711,7 +728,6 @@ body {
     /* Encabezado de página */
     .encabezado-proyecto {
         padding: 2em 2em 6em;
-        background-color: #00060B;
     }
     .subrayado-encabezado-proyecto {
         width: 100%;
@@ -723,30 +739,30 @@ body {
     }
     /* Datos del proyecto */
     .contenedor-datos-proyecto {
-        width: calc(100vw - 9em);
-        padding: 6em 4em 0;
+        width: calc(100vw - 5em);
+        padding: 6em 2em 0;
     }
     .datos-proyecto {
         padding: 2em;
         position: static;
-        width: calc(100vw - 13em);
+        width: calc(100vw - 9em);
         background-color:#E7EEF4;
         color:#00060B;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
+        flex-direction: column;
+        align-items: initial;
+        justify-content: left;
     }
     .datos-proyecto p:nth-child(3) {
         display: none;
     }
     /* Contenido de proyecto */
     .contenido-proyecto {
-        width: calc(100vw - 9em);
-        padding: 6em 4em 6em 4em;
+        width: calc(100vw - 5em);
+        padding: 6em 2em 6em 2em;
     }
     .contenido-proyecto img {
-        width: calc(100vw - 9em);
+        width: calc(100vw - 5em);
     }
 
 }
