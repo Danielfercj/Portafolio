@@ -308,7 +308,7 @@ body {
 }
 .datos-proyecto {
     padding: 2em;
-    position:fixed;
+    position: sticky;
     width: 15vw;
 	bottom:15vh;
 	right:0;
@@ -539,6 +539,45 @@ body {
     }
     /* 3.1.- Cada proyecto */
     /* Encabezado de página */
+    .encabezado-proyecto {
+        padding: 2em 4em 6em;
+        background-color: #00060B;
+    }
+    .subrayado-encabezado-proyecto {
+        width: 75%;
+    }
+    /* Contenedor del contenido */
+    .contenedor-contenido-proyecto {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* Datos del proyecto */
+    .contenedor-datos-proyecto {
+        width: calc(100vw - 9em);
+        padding: 6em 4em 0;
+    }
+    .datos-proyecto {
+        padding: 2em;
+        position: static;
+        width: calc(100vw - 13em);
+        background-color:#E7EEF4;
+        color:#00060B;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .datos-proyecto p:nth-child(3) {
+        display: none;
+    }
+    /* Contenido de proyecto */
+    .contenido-proyecto {
+        width: calc(100vw - 9em);
+        padding: 6em 4em 6em 4em;
+    }
+    .contenido-proyecto img {
+        width: calc(100vw - 9em);
+    }
     
 
 }
@@ -667,6 +706,47 @@ body {
     }
     .nombre-proyecto p, .detalles-proyecto p:nth-child(2), .detalles-proyecto p:nth-child(3) {
         display: none;
+    }
+    /* 3.1.- Cada proyecto */
+    /* Encabezado de página */
+    .encabezado-proyecto {
+        padding: 2em 2em 6em;
+        background-color: #00060B;
+    }
+    .subrayado-encabezado-proyecto {
+        width: 100%;
+    }
+    /* Contenedor del contenido */
+    .contenedor-contenido-proyecto {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* Datos del proyecto */
+    .contenedor-datos-proyecto {
+        width: calc(100vw - 9em);
+        padding: 6em 4em 0;
+    }
+    .datos-proyecto {
+        padding: 2em;
+        position: static;
+        width: calc(100vw - 13em);
+        background-color:#E7EEF4;
+        color:#00060B;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .datos-proyecto p:nth-child(3) {
+        display: none;
+    }
+    /* Contenido de proyecto */
+    .contenido-proyecto {
+        width: calc(100vw - 9em);
+        padding: 6em 4em 6em 4em;
+    }
+    .contenido-proyecto img {
+        width: calc(100vw - 9em);
     }
 
 }
