@@ -406,6 +406,9 @@ body {
     height: 0.25em;
     background-color: #00060B;
 }
+.fila-manejo-programas  .espacio-entre-fila-manejo-programas {
+    display: none;
+}
 
 /* 5.- Contacto */
 /* Título de la página */
@@ -471,6 +474,9 @@ body {
     margin: 2em 0;
     height: 0.25em;
     background-color: #00060B;
+}
+.fila-enlaces-contacto .espacio-entre-fila-enlaces-contacto {
+    display: none;
 }
 
 /* Responsive para tablet ([768 , 1024> px de ancho) */
@@ -584,11 +590,57 @@ body {
     }
     /* 4.- Sobre mí */
     /* Título de la página */
+    .titulo-pagina-sobre-mi {
+        display: none;
+    }
+    /* Manejo de programas */
+    .degradado-manejo-programas {
+        display: none;
+    }
+    .manejo-programas {
+        padding: 6em 4em;
+    }
+    .fila-manejo-programas {
+        display: flex;
+        flex-direction: column;
+    }
+    .fila-manejo-programas article {
+        width: 100%;
+    }
+    .fila-manejo-programas  .espacio-entre-fila-manejo-programas {
+        display: block;
+    }
+    /* 5.- Contacto */
+    /* Título de la página */
+    .titulo-pagina-contacto {
+        display: none;
+    }
+    /* Enlaces de contacto */
+    .degradado-enlaces-contacto {
+        display: none;
+    }
+    .enlaces-contacto {
+        padding: 6em 4em;
+    }
+    .fila-enlaces-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fila-enlaces-contacto article {
+        width: 60%;
+        justify-content: left;
+    }
+    .fila-enlaces-contacto .espacio-entre-fila-enlaces-contacto {
+        display: block;
+        width: 100%;
+    }
 
 }
 
 /* Responsive para celular normal ([480 , 768> px de ancho) */
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
     /* 1.- General */
     /* Header */
     /* Maquetación */
@@ -764,7 +816,81 @@ body {
     .contenido-proyecto img {
         width: calc(100vw - 5em);
     }
+    /* 4.- Sobre mí */
+    /* Título de la página */
+    .titulo-pagina-sobre-mi {
+        display: none;
+    }
+    /* Container */
+    .container-texto-introduccion {
+        width: 100vw;
+    }
+    /* Manejo de programas */
+    .degradado-manejo-programas {
+        display: none;
+    }
+    .manejo-programas {
+        padding: 6em 2em;
+    }
+    .fila-manejo-programas {
+        display: flex;
+        flex-direction: column;
+    }
+    .fila-manejo-programas article {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .icono-programa {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+    .detalles-programa {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fila-manejo-programas  .espacio-entre-fila-manejo-programas {
+        display: block;
+    }
+    /* 5.- Contacto */
+    /* Título de la página */
+    .titulo-pagina-contacto {
+        display: none;
+    }
+    /* Enlaces de contacto */
+    .degradado-enlaces-contacto {
+        display: none;
+    }
+    .enlaces-contacto {
+        padding: 6em 2em;
+    }
+    .fila-enlaces-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fila-enlaces-contacto article {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icono-contacto {
+        margin-right: 0;
+    }
+    .detalles-contacto {
+        margin-left: 0;
+        text-align: center;
+    }
+    .fila-enlaces-contacto .espacio-entre-fila-enlaces-contacto {
+        display: block;
+        width: 100%;
+    }
 
 }
-
-/* Responsive para pantalla minima ([0 , 480> px de ancho) */
